@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>ubah warna dengan gerakan mouse</title>
+		<style>
+			span { font-size:20pt; }
+		</style>
+		
+		<script language="jscript">
+			function tekan()
+				{
+					kata2.style.color="green";
+				}
+			function lewat()
+				{
+					kata1.style.color="red";
+				}
+			function keluar()
+				{
+					kata3.style.color="blue";
+				}
+		</script>
+</head>
+<body>
+	<span id="kata1" style="color:blue" onmouseover="lewat()">
+		Gerakan mouse melalui teks ini 
+	</span>
+	<br>
+	<span id="kata2" style="color:purple" onclick="tekan()">
+		klikbagian teks ini 
+	</span>
+</body>
+</html>
